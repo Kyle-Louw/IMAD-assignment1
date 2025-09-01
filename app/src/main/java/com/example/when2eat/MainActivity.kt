@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
+
 class MainActivity : AppCompatActivity() {
     //Search and Buttons
     private lateinit var timeOfDaySearch: EditText
@@ -19,6 +20,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var foodSuggestion: TextView
     //Author: Zahra Bulbulia
     //Url: https://www.youtube.com/watch?v=97n4_oWyxg4
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,12 +33,12 @@ class MainActivity : AppCompatActivity() {
         }
         //Naming elements
         //Search and Buttons
-        timeOfDaySearch = findViewById<EditText>(R.id.timeOfDaySearch)
-        searchButton = findViewById<Button>(R.id.searchButton)
-        resetButton = findViewById<Button>(R.id.resetButton)
+        timeOfDaySearch = findViewById(R.id.timeOfDaySearch)
+        searchButton = findViewById(R.id.searchButton)
+        resetButton = findViewById(R.id.resetButton)
 
         //Food Suggestions
-        foodSuggestion = findViewById<TextView>(R.id.foodSuggestion)
+        foodSuggestion = findViewById(R.id.foodSuggestion)
         //Author: Zahra Bulbulia
         //Url: https://www.youtube.com/watch?v=R5p-YXC87VU
 
@@ -62,6 +64,7 @@ class MainActivity : AppCompatActivity() {
             foodSuggestion.text = suggestionInfo
             //Author: Zahra Bulbulia
             //Url: https://www.youtube.com/watch?v=R5p-YXC87VU
+
         }
 
         //Reset Button
