@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">When2Eat</string>
+    <string name="when2eat">When2Eat</string>
+    <string name="reset">Reset</string>
+    <string name="your_food_suggestion">Your Food Suggestion:</string>
+    <string name="search">Search</string>
+    <string name="please_enter_time_of_day">Please enter time of day</string>
+    <string name="top_wave">top wave</string>
+    <string name="bottom_wave">bottom wave</string>
+    <string name="morning_mid_morning_etc">morning, mid-morning, etc.</string>
+</resources>
